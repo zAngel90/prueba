@@ -8,7 +8,6 @@ import {
   Avatar,
   Paper,
   Button,
-  TextField,
   Select,
   MenuItem,
   IconButton,
@@ -56,8 +55,6 @@ const clients = [
 
 const Dashboard = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
     <Box 

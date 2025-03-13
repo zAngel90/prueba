@@ -11,8 +11,6 @@ import {
   Select,
   MenuItem,
   IconButton,
-  useTheme,
-  useMediaQuery,
   Badge,
 } from '@mui/material';
 import { Add, Remove, Home, NotificationsRounded, MoreVert, KeyboardArrowDown } from '@mui/icons-material';
@@ -54,8 +52,6 @@ const clients = [
 ];
 
 const Dashboard = () => {
-  const theme = useTheme();
-
   return (
     <Box 
       sx={{ 

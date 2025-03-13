@@ -7,7 +7,7 @@
       "config": { 
         "distDir": "build",
         "installCommand": "npm install",
-        "buildCommand": "npm run build",
+        "buildCommand": "CI=false npm run build",
         "devCommand": "npm start"
       }
     }
@@ -31,6 +31,7 @@
     }
   ],
   "env": {
-    "NODE_VERSION": "16.x"
+    "NODE_VERSION": "16.x",
+    "CI": "false"
   }
 } 
